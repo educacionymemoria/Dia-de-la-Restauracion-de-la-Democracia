@@ -1,0 +1,1361 @@
+/* LISTAS */
+/*NAVBAR*/
+.menu-container {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  padding-top: 8px;
+  height: 100px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s all;
+  position: relative;
+  right: 0.5rem;
+}
+li a:hover {
+  color: yellow;
+}
+
+.menu {
+  color: black;
+  letter-spacing: 3px;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  text-align: left;
+  width: 50px;
+  height: 50px;
+}
+
+.logo-text {
+  color: white;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.footer {
+  background-color: black;
+  margin-bottom: 10px;
+  position: fixed;
+}
+
+header {
+  height: 750px;
+  width: 100%;
+  text-align: center;
+  background: #74668a;
+  background: linear-gradient(180deg, #74668a 21%, #323232 100%);
+}
+
+.portada-img {
+  width: 400px;
+  margin-top: 10%;
+  transition: all 0.5s;
+}
+.portada-img:hover {
+  box-shadow: 5px -5px #333333;
+  transform: translate(-10px);
+}
+
+.titulo-portada {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-size: 5rem;
+  margin-top: 10rem;
+  padding: 0 15rem;
+  font-weight: 900;
+  transition: 0.5s all;
+}
+
+.logo-portada {
+  width: 10rem;
+  position: relative;
+  top: 1rem;
+  animation: changeBorder 2s infinite;
+  animation-name: changeBorder;
+}
+@keyframes changeBorder {
+  0% {
+    opacity: 100%;
+  }
+  10% {
+    opacity: 90%;
+  }
+  20% {
+    opacity: 80%;
+  }
+  30% {
+    opacity: 70%;
+  }
+  40% {
+    opacity: 60%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  60% {
+    opacity: 60%;
+  }
+  70% {
+    opacity: 70%;
+  }
+  80% {
+    opacity: 80%;
+  }
+  90% {
+    opacity: 90%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* MIXINS */
+/*USADOS PARA LAS CLASS: DETACADO Y TITULOS*/
+/*USADOS PARA LAS CLASS: PARRAFOS Y GLOSARIO-TEXTO*/
+/*AGREGAR WEBKITS*/
+/* LISTAS */
+.boton-container {
+  height: 600px;
+  transition: 1s all;
+}
+
+.boton-1 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  align-content: center;
+  font-weight: bolder;
+  transition: 0.5s ease-in-out;
+  text-shadow: 10px 1px 25px black;
+}
+
+/* MIXINS */
+/*USADOS PARA LAS CLASS: DETACADO Y TITULOS*/
+/*USADOS PARA LAS CLASS: PARRAFOS Y GLOSARIO-TEXTO*/
+/*AGREGAR WEBKITS*/
+/* LISTAS */
+* {
+  padding: 0;
+  margin: 0;
+}
+* ::-webkit-scrollbar {
+  width: 10px;
+}
+* ::-webkit-scrollbar-thumb {
+  background: #74668a;
+  border-radius: 8px;
+}
+* ::-webkit-scrollbar-track {
+  box-shadow: #eeeaf4 0px 0px 5px inset;
+  border-radius: 10px;
+}
+
+body {
+  line-height: 1.55;
+  width: 100%;
+  margin: 0px auto;
+}
+
+nav {
+  text-align: center;
+}
+
+.seccion-color {
+  text-align: center;
+  height: 1000px;
+  padding: 0% 5%;
+  background-color: #74668a;
+  color: white;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.seccion-color-galeria {
+  text-align: center;
+  height: fit-content;
+  padding: 0% 5%;
+  background-color: #74668a;
+  color: white;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.seccion-color-fit {
+  text-align: center;
+  height: fit-content;
+  padding: 0% 5%;
+  background-color: #74668a;
+  color: white;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.seccion-nietos {
+  text-align: center;
+  height: 1000px;
+  padding: 0% 5%;
+  background-image: url("../images/nietes.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.seccion-glosario {
+  text-align: center;
+  height: 1000px;
+  padding: 0% 5%;
+  background-image: url("../images/nuncamas.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.seccion-blanca {
+  text-align: center;
+  justify-content: center;
+  height: 1000px;
+  padding: 0% 5%;
+  background-color: white;
+  color: #a390bd;
+}
+
+.seccion-blanca-luchadoras {
+  text-align: center;
+  justify-content: center;
+  height: fit-content;
+  padding: 0% 5%;
+  background-color: white;
+  color: #a390bd;
+}
+
+.seccion-negra {
+  text-align: center;
+  height: fit-content;
+  padding: 0% 5%;
+  color: #a390bd;
+  background-color: #323232;
+}
+
+.seccion-negra-ministerio {
+  text-align: center;
+  height: 600px;
+  padding: 0% 5%;
+  color: #a390bd;
+  background-color: #323232;
+}
+
+.seccion-foto-1 {
+  text-align: center;
+  height: 1000px;
+  background-image: url("../images/raul-alfonsin.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.seccion-foto-madres {
+  text-align: center;
+  height: 1000px;
+  background-image: url("../images/madres.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s all;
+}
+
+.seccion-foto-urna {
+  text-align: center;
+  height: 1000px;
+  background-image: url("../images/urnavotacion.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 1s all;
+}
+
+.candidatos-container {
+  text-align: center;
+}
+
+.ucrcontainer {
+  width: 13rem;
+  height: 13rem;
+  background-color: #a390bd;
+  border-radius: 10px;
+  margin: 2rem auto;
+}
+
+.titulo {
+  font-family: "Raleway", sans-serif;
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.titulo2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  filter: drop-shadow(5px 5px #74668a);
+}
+
+.parrafo {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2rem;
+  padding: 0 10%;
+  color: black;
+}
+
+.parrafo-quiz {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+  margin: 2rem;
+  color: black;
+}
+
+.subtit {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  padding: 0;
+  color: black;
+}
+
+.detalle-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.recuadro {
+  width: 70%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  margin: 10px;
+  padding: 5%;
+  color: white;
+  background-color: #74668a;
+  transition: 1s all;
+  border-radius: 10px;
+}
+
+.botones-container {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.botonelec {
+  width: 25%;
+  margin: 0 0.5rem;
+  background-color: #74668a;
+  border-radius: 10px;
+}
+
+.textelec {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.masboton {
+  text-align: center;
+  color: white;
+  background: none;
+  border: none;
+  transition: 0.5s all;
+  cursor: pointer;
+  align-items: center;
+}
+
+.masboton2 {
+  color: white;
+  background: none;
+  border: none;
+  transition: 0.5s all;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.imgorganismosddhh {
+  width: 15rem;
+  margin: 2rem;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+.imgorganismosddhh:hover {
+  transform: scale(1.1);
+}
+
+.exdetenidos {
+  border: 10px white solid;
+}
+
+.cels {
+  border: 10px white solid;
+}
+
+.apdh {
+  background: black;
+}
+
+.historias {
+  background: black;
+}
+
+.bru {
+  border: 10px white solid;
+}
+
+.correpi {
+  width: 20rem;
+}
+
+.backmes2 {
+  color: white;
+  background-color: #a390bd;
+  padding: 0.5rem;
+  width: 10rem;
+  border-radius: 10px 10px 10px 2px;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.backmes {
+  color: white;
+  background-color: #a390bd;
+  padding: 0.5rem;
+  width: 10rem;
+  border-radius: 10px 10px 10px 2px;
+  position: absolute;
+  bottom: 2rem;
+  left: 4rem;
+}
+
+.recuadrov {
+  background-color: #a390bd;
+  border-radius: 10px;
+  padding: 0.3rem 0.8rem;
+}
+
+.margin-top {
+  margin-top: 3rem;
+}
+
+.botonmadabue {
+  border: #a390bd;
+  background-color: #74668a;
+  border-radius: 10px;
+  margin: 0 2rem;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  position: relative;
+  bottom: 3rem;
+}
+
+.inactivo {
+  background-color: #a390bd;
+}
+
+.botonlinks {
+  text-decoration: none;
+  box-shadow: 2px 2px #a390bd;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 2rem;
+  color: #74668a;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: 0.7s all;
+}
+.botonlinks:hover {
+  color: white;
+  background-color: #a390bd;
+  box-shadow: 2px 2px white;
+}
+
+.blanco {
+  color: white;
+}
+
+.negro {
+  color: black;
+}
+
+.color1 {
+  color: #a390bd;
+}
+
+.color2 {
+  color: #8a7aa3;
+}
+
+.color3 {
+  color: #74668a;
+}
+
+.color4 {
+  color: #d9d3e2;
+}
+
+.quiz-pres {
+  text-align: center;
+  background-color: white;
+  height: fit-content;
+  padding: 100px 5%;
+}
+
+.ancho {
+  width: 100%;
+  padding: 0;
+}
+
+.quiz-titulo {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.quiz-respuestas-cont {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.quiz-respuestas {
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+  width: 20rem;
+  padding: 2rem;
+  background-color: grey;
+  margin: 2rem 6rem;
+  transition: background-color ease 0.5s;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.quiz-op {
+  margin-top: 3rem;
+}
+
+.comprobado {
+  width: 10rem;
+}
+
+.quizsub {
+  color: white;
+  background-color: #a390bd;
+  border-radius: 10px;
+  padding: 0.2rem 2rem;
+  margin-top: 4rem;
+}
+
+.checkbox {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: black 2px solid;
+  border-radius: 100px;
+  transition: 0.5s ease;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+
+.respcorrecta {
+  background-color: #c7e5c4;
+  color: #5daf4d;
+  border: #5daf4d 2px solid;
+  transition: 0.5s ease;
+}
+
+.respincorrecta {
+  background-color: #da7b7b;
+  color: #e23737;
+  border: #ce1616 2px solid;
+  transition: 0.5s ease;
+}
+
+.tick {
+  font-size: 1.2rem;
+  transition: 0.5s ease;
+}
+
+.tickbox {
+  padding: 0.2rem;
+}
+
+.calendario {
+  width: 10%;
+  margin-bottom: 2rem;
+}
+
+.rondagif {
+  width: 30rem;
+  filter: drop-shadow(1px 1px 250px #74668a);
+}
+
+.rondacont {
+  text-align: center;
+}
+
+.urna {
+  width: 5%;
+  margin-bottom: 2rem;
+}
+
+.arrow {
+  margin-top: 6rem;
+  width: 4rem;
+  animation: lateralizacion 5s infinite;
+  animation-name: lateralizacion;
+}
+@keyframes lateralizacion {
+  0% {
+    transform: translate(25px);
+  }
+  10% {
+    transform: translate(-25px);
+  }
+  20% {
+    transform: translate(25px);
+  }
+  30% {
+    transform: translate(-25px);
+  }
+  40% {
+    transform: translate(25px);
+  }
+  50% {
+    transform: translate(-25px);
+  }
+  60% {
+    transform: translate(25px);
+  }
+  70% {
+    transform: translate(-25px);
+  }
+  80% {
+    transform: translate(25px);
+  }
+  90% {
+    transform: translate(-25px);
+  }
+  100% {
+    transform: translate(25px);
+  }
+}
+
+.img-testimonios {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 200px;
+  margin: 1rem;
+  object-fit: cover;
+  animation: borderglow 20s infinite;
+  animation-name: borderglow;
+}
+@keyframes borderglow {
+  0% {
+    box-shadow: 5px 5px #a390bd;
+  }
+  10% {
+    box-shadow: -5px -5px #a390bd;
+  }
+  20% {
+    box-shadow: 5px 5px #a390bd;
+  }
+  30% {
+    box-shadow: -5px -5px #a390bd;
+  }
+  40% {
+    box-shadow: 5px 5px #a390bd;
+  }
+  50% {
+    box-shadow: -5px -5px #a390bd;
+  }
+  60% {
+    box-shadow: -5px -5px #a390bd;
+  }
+  70% {
+    box-shadow: 5px 5px #a390bd;
+  }
+  80% {
+    box-shadow: -5px -5px #a390bd;
+  }
+  90% {
+    box-shadow: 5px 5px #a390bd;
+  }
+  100% {
+    box-shadow: -5px -5px #a390bd;
+  }
+}
+
+.format {
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+
+.carousel {
+  width: 80%;
+}
+
+.shadow {
+  filter: drop-shadow(15px 15px #8a7aa3);
+}
+
+.arrow-down {
+  margin-top: 6rem;
+  font-size: 4rem;
+  animation: upanddown 5s infinite;
+  animation-name: upanddown;
+}
+@keyframes upanddown {
+  0% {
+    transform: translateY(15px);
+  }
+  10% {
+    transform: translateY(-15px);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  30% {
+    transform: translateY(-15px);
+  }
+  40% {
+    transform: translateY(15px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(15px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  80% {
+    transform: translateY(15px);
+  }
+  90% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+.arrow-down:hover {
+  color: whitesmoke;
+}
+
+.arrow-down2 {
+  margin-top: 6rem;
+  font-size: 4rem;
+  animation: upanddown 5s infinite;
+  animation-name: upanddown;
+}
+@keyframes upanddown {
+  0% {
+    transform: translateY(15px);
+  }
+  10% {
+    transform: translateY(-15px);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  30% {
+    transform: translateY(-15px);
+  }
+  40% {
+    transform: translateY(15px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(15px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  80% {
+    transform: translateY(15px);
+  }
+  90% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+.arrow-down2:hover {
+  color: whitesmoke;
+}
+
+.arrow-down3 {
+  margin-top: 1rem;
+  font-size: 3rem;
+  animation: upanddown2 5s infinite;
+  animation-name: upanddown2;
+}
+@keyframes upanddown2 {
+  0% {
+    transform: translateY(5px);
+  }
+  10% {
+    transform: translateY(-5px);
+  }
+  20% {
+    transform: translateY(5px);
+  }
+  30% {
+    transform: translateY(-5px);
+  }
+  40% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(5px);
+  }
+  90% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+.arrow-down3:hover {
+  color: whitesmoke;
+}
+
+.up {
+  position: relative;
+  bottom: 4rem;
+}
+
+.up1 {
+  position: relative;
+  bottom: 1rem;
+}
+
+.down {
+  position: relative;
+  top: 4rem;
+}
+
+.bigger {
+  font-size: 1rem;
+}
+
+.botoncontainerabuelas {
+  margin-top: 5rem;
+  background-color: #a390bd;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.columna {
+  text-align: center;
+  justify-content: center;
+}
+
+.fila {
+  text-align: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.id2 {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.id3 {
+  line-height: 2;
+}
+
+.id4 {
+  font-size: 1.8rem;
+}
+
+.glow-bl-v {
+  animation: glowblv 5s infinite;
+  animation-name: glowblv;
+}
+@keyframes glowblv {
+  0% {
+    color: #8a7aa3;
+  }
+  10% {
+    color: #8a7aa3;
+  }
+  20% {
+    color: white;
+  }
+  30% {
+    color: white;
+  }
+  40% {
+    color: #8a7aa3;
+  }
+  50% {
+    color: #8a7aa3;
+  }
+  60% {
+    color: white;
+  }
+  70% {
+    color: white;
+  }
+  80% {
+    color: #8a7aa3;
+  }
+  90% {
+    color: #8a7aa3;
+  }
+  100% {
+    color: #8a7aa3;
+  }
+}
+
+.extraheight {
+  height: 1250px;
+  animation: extraheight 0.5s;
+  animation-name: extraheight;
+}
+@keyframes extraheight {
+  0% {
+    height: 1050px;
+  }
+  100% {
+    height: 1250px;
+  }
+}
+
+.revextraheight {
+  height: 1000px;
+  animation: revextraheight 0.5s;
+  animation-name: revextraheight;
+}
+@keyframes revextraheight {
+  0% {
+    height: 1250px;
+  }
+  100% {
+    height: 1000px;
+  }
+}
+
+.panueloshadow {
+  filter: drop-shadow(5px 5px #74668a);
+}
+
+.panuelomadres {
+  margin: 3rem 5rem;
+  width: 5rem;
+  cursor: pointer;
+  animation: panuelo 5s infinite;
+  animation-name: panuelo;
+}
+@keyframes panuelo {
+  0% {
+    transform: translateY(5px);
+  }
+  10% {
+    transform: translateY(-5px);
+  }
+  20% {
+    transform: translateY(5px);
+  }
+  30% {
+    transform: translateY(-5px);
+  }
+  40% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(5px);
+  }
+  90% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+
+.panuelocont {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.madres-test-cont {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.madretestpar {
+  width: 100%;
+  padding: 0 0rem;
+}
+
+.pie {
+  width: 400px;
+  height: 400px;
+  background-image: conic-gradient(#db7b7b 51.75%, #8abbcf 51.75% 91.91%, #649173 91.91% 94.24%, #292929 94.24% 95.43%, #a390bd 95.43% 96.15%, #b6b6b6 96.15% 100%);
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+.ucr {
+  background-color: #db7b7b;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+.ucr:hover {
+  border-radius: 10px 10px 10px 2px;
+  box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.5);
+}
+
+.pj {
+  background-color: #8abbcf;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+.pj:hover {
+  border-radius: 10px 10px 10px 2px;
+  box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.5);
+}
+
+.pi {
+  background-color: #649173;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+.pi:hover {
+  border-radius: 10px 10px 10px 2px;
+  box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.5);
+}
+
+.mid {
+  background-color: #292929;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+.mid:hover {
+  border-radius: 10px 10px 10px 2px;
+  box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.5);
+}
+
+.af {
+  background-color: #a390bd;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+.af:hover {
+  border-radius: 10px 10px 10px 2px;
+  box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.5);
+}
+
+.otros {
+  background-color: #b6b6b6;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  transition: 0.5s all;
+}
+.otros:hover {
+  border-radius: 10px 10px 10px 2px;
+  box-shadow: 1px 1px 3px rgba(49, 49, 49, 0.5);
+}
+
+.pie-conteiner {
+  text-align: center;
+}
+
+.fontplus {
+  font-size: 1.2rem;
+}
+
+.boton-atras-cont {
+  text-align: center;
+  position: relative;
+  top: 60%;
+  right: 85%;
+}
+
+.boton-inicio {
+  background-color: #a390bd;
+  margin: 0.3rem;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s all;
+  width: 2.2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.boton-inicio:hover {
+  background-color: #8a7aa3;
+  box-shadow: 2px 2px #a390bd;
+  transform: translateX(-0.2rem);
+}
+
+.boton-atras {
+  background-color: #a390bd;
+  margin: 0.3rem;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: 0.5s all;
+  cursor: pointer;
+  width: 2.2rem;
+}
+.boton-atras:hover {
+  background-color: #8a7aa3;
+  box-shadow: 2px 2px #a390bd;
+  transform: translateX(-0.2rem);
+}
+
+.cont2 {
+  top: 25%;
+  right: 100%;
+}
+
+.cont3 {
+  top: 30%;
+  right: 115%;
+}
+
+.cont4 {
+  top: 20%;
+  right: 60%;
+}
+
+.masboton5 {
+  position: relative;
+  bottom: 10rem;
+}
+
+.carousel-caption {
+  text-shadow: 5px 5px 5px black;
+}
+
+.glosario-cont {
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 5% 10%;
+}
+
+.glosario-card {
+  text-align: center;
+  margin: 0.2rem 0.5rem;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.glosario-card:hover {
+  background-color: #a390bd;
+}
+
+.size1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.size2 {
+  border-top: solid 2px 10px #a390bd;
+}
+
+.extraalt {
+  height: 4.5rem;
+}
+
+.tt {
+  height: fit-content;
+  padding: 100px 5%;
+}
+
+.conceptos {
+  background-color: #a390bd;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+}
+
+.footer-2 {
+  height: 250px;
+  width: 100%;
+  background-color: white;
+  transition: 1.5s all;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-footer {
+  width: 15rem;
+}
+
+.detalle-text2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  color: black;
+  font-weight: 600;
+}
+
+.link-rosa {
+  text-decoration: none;
+  color: #74668a;
+  font-weight: bolder;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+.link-rosa:hover {
+  color: white;
+  background: #74668a;
+}
+
+/* MIXINS */
+/*USADOS PARA LAS CLASS: DETACADO Y TITULOS*/
+/*USADOS PARA LAS CLASS: PARRAFOS Y GLOSARIO-TEXTO*/
+/*AGREGAR WEBKITS*/
+/* MOBILE */
+/* Extends */
+.boton-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.seccion-blanca, .seccion-blanca-luchadoras, .seccion-foto-1, .seccion-foto-madres, .seccion-foto-urna, .candidatos-container, .botones-container, .masboton, .quiz-respuestas-cont, .rondacont, .fila, .panuelocont, .madres-test-cont, .pie-conteiner, .boton-atras-cont, .glosario-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header, .seccion-color, .seccion-color-galeria, .seccion-color-fit, .seccion-nietos, .seccion-glosario, .seccion-negra, .seccion-negra-ministerio, .quiz-pres, .columna, .glosario-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* LISTAS */
+/* MIXINS */
+/*USADOS PARA LAS CLASS: DETACADO Y TITULOS*/
+/*USADOS PARA LAS CLASS: PARRAFOS Y GLOSARIO-TEXTO*/
+/*AGREGAR WEBKITS*/
+/*MOBILE QUERY*/
+@media only screen and (min-width: 601px) {
+  .none-desktop {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .seccion-nietos {
+    height: 1200px;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+  body .none-mobile {
+    display: none !important;
+  }
+
+  .detalle-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.7rem;
+    margin: 10px;
+    padding: 0rem 1rem;
+  }
+
+  .titulos {
+    font-size: 2rem;
+    padding: 0rem 1rem;
+  }
+
+  .parrafos {
+    padding: 0 5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
