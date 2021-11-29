@@ -1331,10 +1331,10 @@ header, .seccion-color, .seccion-color-galeria, .seccion-color-fit, .seccion-nie
     display: none !important;
   }
 }
-@media only screen and (min-width: 800px) and (max-width: 1200px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .seccion-nietos {
     height: 1200px;
-    padding: 0% 5%;
+    padding: 0px 5%;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 600px) {
