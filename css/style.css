@@ -175,7 +175,7 @@ nav {
 .seccion-color {
   text-align: center;
   height: 1000px;
-  padding: 0% 5%;
+  padding: 200px 5%;
   background-color: #74668a;
   color: white;
   overflow-x: auto;
@@ -185,7 +185,7 @@ nav {
 .seccion-color-galeria {
   text-align: center;
   height: fit-content;
-  padding: 0% 5%;
+  padding: 100px 5%;
   background-color: #74668a;
   color: white;
   overflow-x: auto;
@@ -195,7 +195,7 @@ nav {
 .seccion-color-fit {
   text-align: center;
   height: fit-content;
-  padding: 0% 5%;
+  padding: 200px 5%;
   background-color: #74668a;
   color: white;
   overflow-x: auto;
@@ -205,7 +205,7 @@ nav {
 .seccion-nietos {
   text-align: center;
   height: 1000px;
-  padding: 0% 5%;
+  padding: 100px 5%;
   background-image: url("../images/nietes.jpg");
   width: 100%;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@ nav {
 .seccion-glosario {
   text-align: center;
   height: 1000px;
-  padding: 0% 5%;
+  padding: 100px 5%;
   background-image: url("../images/nuncamas.png");
   width: 100%;
   background-repeat: no-repeat;
@@ -234,7 +234,7 @@ nav {
   text-align: center;
   justify-content: center;
   height: 1000px;
-  padding: 0% 5%;
+  padding: 100px 5%;
   background-color: white;
   color: #a390bd;
 }
@@ -243,7 +243,7 @@ nav {
   text-align: center;
   justify-content: center;
   height: fit-content;
-  padding: 0% 5%;
+  padding: 100px 5%;
   background-color: white;
   color: #a390bd;
 }
@@ -251,7 +251,7 @@ nav {
 .seccion-negra {
   text-align: center;
   height: fit-content;
-  padding: 0% 5%;
+  padding: 200px 5%;
   color: #a390bd;
   background-color: #323232;
 }
@@ -259,7 +259,7 @@ nav {
 .seccion-negra-ministerio {
   text-align: center;
   height: 600px;
-  padding: 0% 5%;
+  padding: 200px 5%;
   color: #a390bd;
   background-color: #323232;
 }
@@ -1334,6 +1334,7 @@ header, .seccion-color, .seccion-color-galeria, .seccion-color-fit, .seccion-nie
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
   .seccion-nietos {
     height: 1200px;
+    padding: 0% 5%;
   }
 }
 @media only screen and (min-width: 100px) and (max-width: 600px) {
