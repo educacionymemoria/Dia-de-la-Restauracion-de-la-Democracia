@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- FAVICON -->
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- AOS - efectos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- META DESCRIPTION -->
+  <meta name="description" content="Hodlers es el sitio que estabas buscando para aprender a dar tus primeros pasos en 
+   el mundo de las criptomonedas. Aprendé gratis y en comunidad.">
+
+  <!-- KEYWORDS -->
+  <meta name="keywords"
+    content="Educación memoria GCBA Ciudad de Buenos Aires colegio escuela violencia infanto juvenil niños niñas alumnos alumnas aula">
+
+  <!-- SCRIPT PARA GRÁFICO DE TORTA -->
+
+  <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:tittle" content="Educación y Memoria">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images\">
+  <meta property="og:image:width" content="320px">
+  <meta property="og:image:height" content="118px">
+  <meta property="og:url" content="index.html">
+  <meta property="og:description" content="Educación y Memoria">
+  <meta property="og:author" content="Educación y Memoria">
+  <meta property="og:locale" content="en_AR">
+  <title> Educación y Memoria </title>
+</head>
+
+<body>
+  <header class="img-portada">
+    <nav>
+      <img class="logo-portada" src="images/logo-edym-fullblanco.png" alt="Logo Educación y Memoria">
+
+    </nav>
+
+    <h1 class="titulo-portada">
+      Día de la Restauración <br>de la Democracia
+    </h1>
+
+  </header>
+
+  <section class="seccion-negra-ministerio">
+    <div data-aos="fade-up">
+      <img src="images\BA2016.png" alt="logo-ministerio-de-educación">
+    </div>
+    <p data-aos="fade-up" class="detalle-text"> Programa Educación y Memoria | Gerencia Operativa de Equipos de Apoyo
+      <br> Ministerio de Educación de la Ciudad de Buenos Aires <br> Diciembre 2021 </p>
+
+  </section>
+
+  <section class="seccion-blanca">
+    <div class="col-6">
+      <h3 class="titulo">¿Cuándo y <br>por qué se conmemora?</h3>
+    </div>
+    <div class="col-6">
+      <img class="calendario" src="images\calendario.gif" alt="urna-voto">
+      <p class="parrafo">El 10 de diciembre conmemoramos en la Argentina el Día de la Restauración de la Democracia en
+        recuerdo de la asunción de Raúl Alfonsín como presidente de la Nación, en 1983. El pueblo argentino recuperaba
+        la democracia y, con ella, el Estado de derecho, tras siete años de dictadura cívico militar.
+        <br><br>
+        La fecha fue establecida en 2007 por la Ley 26.323 con el fin de promover, en todo el territorio nacional, los
+        valores democráticos y resaltar su significado histórico, político y social.
+      </p>
+    </div>
+  </section>
+
+  <!-- SECCIÓN FOTO -->
+
+  <section class="seccion-foto-1">
+    <div class="col-6"></div>
+    <div class="col-6">
+      <p class="recuadro">
+        <b> 10/12/1983 </b>
+        <br><br>
+        El presidente electo <b>Raúl Alfosín</b> saluda desde el balcón de la Casa Rosada a una Plaza de Mayo repleta.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- SECCION ELECCIONES 1983 -->
+
+  <section class="seccion-color columna" id="fadeelec">
+
+    <!-- PARTE 1 -->
+    <div class="columna seccionelec1" id="seccionelec1">
+      <img class="urna" src="images\urna.png" alt="urna-voto">
+      <p class="titulo">Elecciones 1983</p>
+      <p class="parrafo blanco">Entre 1976 y 1983, durante la dictadura cívico militar que gobernó de facto, Argentina
+        tuvo cuatro presidentes que no fueron elegidos por el pueblo en las urnas: Jorge Rafael <b>Videla</b>, Roberto
+        <b>Viola</b>, Leopoldo Fortunato <b>Galtieri</b> y Reynaldo <b>Bignone</b>. Luego de esos siete años de oscuridad, en 1983 se realizaron elecciones por primera vez desde 1974. En éstas participaron 24 candidatos y dos de ellos concentraron casi el 92% de los votos. 
+      </p>
+
+      <div>
+        <div class="masboton" id="masboton">
+          <img class="arrow" src="images\arrow-lighning.png" alt="urna-voto">
+        </div>
+      </div>
+
+      
+      </div>  
+
+      <!-- PARTE 5 - GRÁFICO DE TORTA -->
+      <div class="columna seccionelec2 hidden" id="seccionelec2">
+        <p class="titulo blanco">La elección en números</p>
+        <div class="pie-conteiner col-12">
+
+          <div class="pie"></div>
+
+          <div >
+            <p class="detalle-text ucr">Raúl Alfonsín (UCR): <b>51,75%</b></p>
+            <p class="detalle-text pj">Ítalo Luder (PJ): <b>40,16%</b></p>
+            <p class="detalle-text pi">Oscar Alende (Partido Intransigente): <b>2,33%</b></p>
+            <p class="detalle-text mid">Rogelio Frigerio (MID): <b>1,19%</b></p>
+            <p class="detalle-text af">Francisco Manrique (Alianza Federal): <b>0,72%</b></p>
+            <p class="detalle-text otros">Otros partidos: <b>3,85%</b></p>
+          </div>
+
+          <div>
+            <p class="parrafo blanco"> Cantidad de votantes:<br> <b>15.350.186</b> </p>
+            <p class="parrafo blanco"> Participación: <br> <b>85,61%</b>  </p>
+            <p class="parrafo blanco"> Votos para el <br>presidente electo:<br> <b>7.724.559</b> </p>
+          </div>
+        </div>
+
+
+  
+        <!-- Botón para seguir a los datos de las elecciones -->
+        <div class="boton-atras-cont cont4 hidden" id="backcont1">
+          <img class="boton-inicio " src="images\back2.png" alt="back2" id="back1">
+          <p class="backmes1 hidden" id="back1mes">Volver al inicio</p>
+        </div>
+
+        <!-- Botón para seguir a los datos de las elecciones -->
+
+        <div class="masboton hidden up" id="masboton2">
+          <a class="format" href="#urna">
+            <p class="arrow-down blanco">︾</p>
+          </a>
+        </div>
+  </section>
+
+  <!-- FOTO URNA -->
+  <section class="seccion-foto-urna" id="urna">
+    <div class="col-1"></div>
+    <div class="col-4"> <p class="titulo2 blanco">Es importante no olvidar que... </p></div>
+    <div class="col-1"></div>
+  
+    <div class="col-6">
+      <p class="recuadro">
+        <b>Cada voto es una victoria de la democracia</b>
+        <br><br>
+        Durante muchos años, esta imagen no pudo ser posible. La continuidad democrática es indispensable para que
+        tengamos garantizados nuestros derechos.
+      </p>
+      
+    </div>
+
+  </section>
+  <!-- IMPORTANCIA DE LAS ELECCIONES -->
+  <section class="seccion-blanca">
+    <p class="titulo">Las elecciones de 1983 fueron el inicio...</p>
+    <p class="parrafo">...de un período democrático que ya lleva <b>38 años.</b> Desde entonces, 11 presidentes de
+      distintas banderas políticas pasaron por la Casa Rosada. Más allá de algunas transiciones conflictivas, como las
+      de diciembre de 2001 cuando tuvimos tres presidentes en una semana debido a la crisis económica y social, es
+      importante destacar que todos fueron elegidos por el pueblo <b>a través del voto</b>. Algo como un domingo de
+      elecciones, que hoy tenemos naturalizado como un derecho, estuvo prohibido durante la última dictadura cívico
+      militar (1976-1983). <br><br> <b>¡Por eso hay que valorar tanto y defender todos los días nuestra democracia!</b>
+    </p>
+    <!-- Botón para seguir a la galería de presidentes -->
+
+    <div class="masboton columna" id="masboton2">
+      <p class="detalle-text color1 down bigger">Mirá la galería con cada presidente electo <br>desde que recuperamos
+        nuestra democracia.</p>
+      <a class="format" href="#galeria">
+        <p class="arrow-down color1">︾</p>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- GALERÍA DE PRESIDENTES -->
+
+  <section class="seccion-color-galeria" id="galeria">
+
+    <div id="carouselExampleCaptions" class="carousel slide shadow" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+          aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+          aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+          aria-label="Slide 9"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images\alfonsin.jpg" class="d-block w-100 " alt="Raúl Alfonsín">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Raúl Alfonsín</h5>
+            <p>1983-1989</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\menem.jpg" class="d-block w-100" alt="Carlos Menem">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Carlos Saúl Menem</h5>
+            <p>1989-1999</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\delarua.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fernando De La Rúa</h5>
+            <p>1999-2001</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\trespresidentes.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ramón Puerta - Adolfo Rodríguez Saa - Eduardo Camaño</h5>
+            <p>Diciembre 2001</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\duhalde.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eduardo Duhalde</h5>
+            <p>2002-2003</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\nestor.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Néstor Kirchner</h5>
+            <p>2003-2007</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\cristina.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Cristina Fernández de Kirchner</h5>
+            <p>2007-2015</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\macri.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mauricio Macri</h5>
+            <p>2015-2019</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images\alberto.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Alberto Fernández</h5>
+            <p>2019-Actualidad</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+
+  <section class="seccion-blanca-luchadoras">
+    <div>
+      <p class="titulo">Luchadoras y luchadores</p>
+      <p class="subtit color1">por los Derechos Humanos</p>
+      <div class="rondacont">
+        <img class="rondagif col-6" src="images\rondaeditable.gif" alt="">
+        <p class="parrafo col-6">En la batalla por la recuperación de la democracia y contra los crímenes del terrorismo
+          de Estado hubo muchas personas comprometidas. Se fueron juntando y organizando para <b>crear los organismos de Derechos Humanos que todavía hoy continúan en la pelea
+          por la Memoria, Verdad y Justicia.</b> Entre todos, Madres y Abuelas de Plaza de Mayo son los más reconocidos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN FOTO - MADRES -->
+
+  <section class="seccion-foto-madres" id="madres">
+    <div class="col-1"></div>
+    <div class="col-6">
+      <p class="recuadro">
+        <b> La Ronda de los Jueves</b>
+        <br><br>
+        Durante la dictadura cívico militar estaba prohibido reunirse en espacios públicos y las Fuerzas de Seguridad
+        reprimían las concentraciones. Obligaban a la gente a "circular". Así nació <b>La Ronda de los Jueves</b>:
+        caminando alrededor de la Pirámide de Mayo, las Madres de Plaza de Mayo pedían por la vida de sus hijas e hijos
+        desaparecidos.
+      </p>
+    </div>
+    <div class="col-5"></div>
+
+  </section>
+
+  <!-- PARTE 4 -->
+
+  <section class="seccion-blanca" id="seccionmadres">
+    <div class="fila">
+      <button class="botonmadabue" id="botonmadressect">MADRES</button>
+      <button class="botonmadabue inactivo" id="botonabuelassect">ABUELAS</button>
+    </div>
+    <!-- PARTE MADRES  -->
+    <div class="" id="madreseccion">
+      <p class="titulo col-12">Madres de <br>Plaza de Mayo</p>
+      <p class="parrafo">Durante la última dictadura cívico militar fueron desaparecidas 30.000 personas en manos de las
+        Fuerzas Armadas del gobierno represor. Las madres de aquellas víctimas del terrorismo de Estado reclamaron por
+        sus apariciones.</p>
+
+      <div class="columna margin-top">
+        <p class="subtit"> Cada pañuelo, <span id="">una historia</span></p>
+
+        <p class="detalle-text blanco up1 recuadrov"> Hacé click en cada uno para conocer algunas de ellas</p>
+      </div>
+      <!-- BOTÓN PARA CONTINUAR -->
+      <div class="panuelocont">
+
+        <div class="" id="madres1">
+          <img class="arrow-down panuelomadres" src="images\panuelo-madres.png" alt="urna-voto">
+        </div>
+
+        <div class="" id="madres2">
+          <img class="arrow-down panuelomadres" src="images\panuelo-madres.png" alt="urna-voto">
+        </div>
+
+        <div class="" id="madres3">
+          <img class="arrow-down panuelomadres" src="images\panuelo-madres.png" alt="urna-voto">
+        </div>
+      </div>
+
+      <!-- MADRES TESTIMONIOS -->
+      <!-- TEST 1 -->
+      <div class="madres-test-cont hidden" id="madretest1">
+        <img class="img-testimonios" src="images\norita.jpg" alt="Norita Cortiñas" id="madretest1a">
+        <p class="subtit col-3" id="madretest1b">Norita <br> Cortiñas</p>
+        <p class="parrafo madretestpar col-7" id="madretest1c">"La escuela es más que un lugar para leer y escribir:
+          <b>es un espacio de pensamiento, donde los chicos deben informarse</b>. Por eso es importante y significativo
+          transmitir la historia de nuestro drama, el que vivimos durante el terrorismo de Estado. Considero que <b>el
+            relato directo de las Madres a los niños es la mejor forma de que les llegue la verdadera historia</b>.
+          Tenemos que seguir por este camino, abriendo esa parte de la historia hacia los niños y jóvenes".
+        </p>
+      </div>
+
+      <!-- TEST 2 -->
+      <div class="madres-test-cont hidden" id="madretest2">
+        <img class="img-testimonios " src="images\Taty-almeida-tapa.jpg" alt="Norita Cortiñas" id="madretest2a">
+        <p class="subtit  col-3" id="madretest2b">Taty <br> Almeida</p>
+        <p class="parrafo  madretestpar col-7" id="madretest2c">"Nosotras pedimos justicia legal; jamás hicimos justicia
+          por mano propia. Y esa semillita que plantamos ya tiene sus frutos: los jóvenes que toman la posta. Estoy
+          contenta, porque <b>cada vez hay más jóvenes comprometidos, que toman conciencia</b>. Son chicos convencidos,
+          militantes ciento por ciento. Y es lo que emociona y a la vez tranquiliza, <b>porque atrás nuestro viene esta
+            juventud maravillosa</b>".
+        </p>
+      </div>
+
+      <!-- TEST 3 -->
+      <div class="madres-test-cont hidden" id="madretest3">
+        <img class="img-testimonios " src="images\baravalle.jpg" alt="Norita Cortiñas" id="madretest3a">
+        <p class="subtit  col-3" id="madretest3b">Mirta Acuña <br> de Baravalle</p>
+        <p class="parrafo  madretestpar col-7" id="madretest3c">"Yo seguiré en esta lucha de reclamo de justicia. Pero
+          no sólo por los desaparecidos, sino que seguiré reclamando por la justicia social, la justicia actual. Sin
+          dejar de lado lo que pasó, <b>también luchamos por los Derechos Humanos actuales, por lo que nuestros hijos
+            dieron su vida</b>, por lo que toda esa gente sufrió por querer cambiar a la sociedad y buscar una igualdad
+          para todos".
+        </p>
+      </div>
+
+    </div>
+
+
+    <!-- PARTE ABUELAS  -->
+    <div class="hidden" id="seccionabuelas">
+      <p class="titulo col-12">Abuelas de <br>Plaza de Mayo</p>
+      <p class="parrafo">Al mismo tiempo, las abuelas de las nietas y nietos secuestrados, y de las niñas y niños por
+        nacer de mujeres embarazadas que habían sido desaparecidas, también lucharon en la calle por sus regresos. Se
+        estima que al menos 500 niñas y niños fueron apropiados por los militares.</p>
+
+      <div class="columna margin-top">
+        <p class="subtit"> Cada pañuelo, <span id="">una historia</span></p>
+
+        <p class="detalle-text blanco up1 recuadrov"> Hacé click en cada uno para conocer algunas de ellas</p>
+      </div>
+      <!-- BOTÓN PARA CONTINUAR -->
+      <div class="panuelocont">
+
+        <div class="" id="abuelas1">
+          <img class="arrow-down panuelomadres" src="images\panuelo-madres.png" alt="urna-voto">
+        </div>
+
+        <div class="" id="abuelas2">
+          <img class="arrow-down panuelomadres" src="images\panuelo-madres.png" alt="urna-voto">
+        </div>
+
+        <div class="" id="abuelas3">
+          <img class="arrow-down panuelomadres" src="images\panuelo-madres.png" alt="urna-voto">
+        </div>
+      </div>
+
+      <!-- ABUELAS TESTIMONIOS -->
+
+      <!-- TEST 1 -->
+      <div class="madres-test-cont hidden" id="abuelatest1">
+        <img class="img-testimonios " src="images\estela.jpg" alt="Norita Cortiñas" id="abuelatest1a">
+        <p class="subtit  col-3" id="abuelatest1b">Estela Barnes <br>de Carlotto</p>
+        <p class="parrafo  madretestpar col-7" id="abuelatest1c">"Los niños están en formación democrática y tienen el
+          derecho de saber qué pasó en la dictadura. En los primeros tiempos del alfonsinismo se llevó a juicio a muchos
+          militares y, al igual que otras Abuelas y Madres, fui testigo. No nos dejaban entrar al juzgado con el pañuelo
+          y la prensa no tenía acceso... fue duro, pero muchos fueron condenados. Por eso, <b>valoren la libertad y
+            defiendan la democracia junto con sus familias</b>".
+
+        </p>
+      </div>
+
+      <!-- TEST 2 -->
+      <div class="madres-test-cont hidden" id="abuelatest2">
+        <img class="img-testimonios" src="images\delia.jpg" alt="Norita Cortiñas" id="abuelatest2a">
+        <p class="subtit col-3" id="abuelatest2b">Delia Cecilia <br> Giovanola</p>
+        <p class="parrafo madretestpar col-7" id="abuelatest2c">"Cuando nos ocurrió la desaparición de nuestros hijos/as
+          y nietos/as en la dictadura, nos tomó desprevenidas. Incluso a la gente grande y estudiosa. De ahí la
+          importancia de que <b>ustedes estén alertas y no permitan que esto ocurra nunca más</b>. Los alumnos y alumnas
+          de la primaria van a ser los mayores en el futuro y, los del secundario, van a ser mujeres y hombres muy
+          pronto y tienen que <b>ayudar a que no se pierda la memoria sobre estos hechos</b>".
+        </p>
+      </div>
+
+
+
+      <!-- TEST 3 -->
+      <div class="madres-test-cont hidden" id="abuelatest3">
+        <img class="img-testimonios " src="images\rosa.jpeg" alt="Norita Cortiñas" id="abuelatest3a">
+        <p class="subtit  col-3" id="abuelatest3b">Rosa Tarlovsky <br>de Roisinblit</p>
+        <p class="parrafo  madretestpar col-7" id="abuelatest3c">"La <b>democracia no se consigue de la noche a la
+            mañana, es algo que hay que ir formando día a día entre todos</b>, tratando de participar. Pienso que mi
+          actividad va más allá del objetivo principal de Abuelas, que es el Derecho a la Identidad. Mi compromiso con
+          la vida es con quienes padecen la falta de justicia y de libertad en el mundo entero. Para siempre. Hasta el
+          último día de mi vida".
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="seccion-nietos">
+    <p class="titulo">Nietas y nietos</p>
+    <p class="parrafo blanco">Las Abuelas de Plaza de Mayo, resistiendo al paso del tiempo, siempre se mantuvieron en la
+      búsqueda constante de aquellos bebés robados por el terrorismo de Estado. En diciembre de 2021 ya llevan
+      restituidas 130 identidades: nietas y nietos que se reencontraron con su historia verdadera. En el sitio oficial
+      de Educación y Memoria podés conocer algunas de estas historias: 16 entrevistas que nos brindaron a lo largo de
+      los años.
+    </p>
+    <a class="botonlinks" href="https://www.buenosaires.gob.ar/educacion/archivos-por-la-memoria/nietas-y-nietos">Leé
+      las historias de nietas y nietos</a>
+
+    <div class="columna">
+      <p class="parrafo blanco botoncontainerabuelas">Además, tenemos más historias de Abuelas y Madres para seguir
+        leyendo</p>
+
+      <div class="fila">
+        <a class="botonlinks"
+          href="https://www.buenosaires.gob.ar/educacion/archivos-por-la-memoria/abuelas">Abuelas</a>
+        <a class="botonlinks" href="https://www.buenosaires.gob.ar/educacion/archivos-por-la-memoria/madres">Madres</a>
+      </div>
+    </div>
+
+    <div class="masboton2">
+      <p class="detalle-text">Estos son otros organismos defensores de Derechos Humanos <br> que siguen luchando por la
+        democracia, por la Memoria, la Verdad y la Justicia.</p>
+      <a class="format" href="#organismos">
+        <p class="arrow-down3 blanco">︾</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="seccion-blanca" id="organismos">
+    <p class="titulo">¿Sabías que la mayoría...</p>
+    <p class="parrafo">...de los <b>organismos de Derechos Humanos argentinos</b> nacieron durante la última dictadura cívico
+      militar, cómo órganos de denuncia a las violaciones cometidas por el gobierno, y de apoyo a familiares y víctimas?
+    </p>
+    <p class="parrafo">La participación de distintos sectores sociales es fundamental para sostener y profundizar la
+      continuidad democrática institucional existente desde 1983 hasta nuestros días. </p>
+    <div>
+      <a href="https://www.amnesty.org/es/"><img class="imgorganismosddhh" src="images\amnistia.PNG" alt=""></a>
+      <a href="https://www.apdh-argentina.org.ar/"><img class="imgorganismosddhh apdh" src="images\apdh.png" alt=""></a>
+      <a href="https://www.cels.org.ar/web/"><img class="imgorganismosddhh cels" src="images\cels.jpeg" alt=""></a>
+      <a href="http://www.correpi.org/"><img class="imgorganismosddhh correpi" src="images\correpi.jpg" alt=""></a>
+      <a href="https://adc.org.ar/"><img class="imgorganismosddhh" src="images\derechosciviles.png" alt=""></a>
+      <a href="http://exdetenidosdesaparecidos.org/"><img class="imgorganismosddhh exdetenidos"
+          src="images\exdetenidos.jpg" alt=""></a>
+      <a href="http://www.desaparecidos.org/familiares/"><img class="imgorganismosddhh" src="images\familiares.PNG"
+          alt=""></a>
+      <a href="http://www.hijos.org.ar/"><img class="imgorganismosddhh" src="images\logo-hijos-capital.jpg" alt=""></a>
+      <a href="https://asociacionmiguelbru.org.ar/"><img class="imgorganismosddhh bru" src="images\miguelbru.png"
+          alt=""></a>
+      <a href="https://serpaj.org.ar/"><img class="imgorganismosddhh" src="images\serpaj.png" alt=""></a>
+    </div>
+  </section>
+
+
+  <section class="seccion-color tt">
+    <p class="titulo">Palabras con Memoria</p>
+    <p class="parrafo blanco conceptos">Conceptos clave para no olvidar</p>
+
+    <img src="images\diccionario.png" alt="">
+
+    <div class="glosario-cont">
+
+      <div class="glosario-card" id="glosario1">
+        <p class="parrafo size1 blanco"> <span class=""> Dictadura </span> | <p class="parrafo blanco hidden size2"
+            id="glosariotext1">Régimen político que, por la fuerza o violencia, concentra todo el poder en una persona o
+            en un grupo u organización y reprime los derechos humanos y las libertades individuales.</p>
+        </p>
+      </div>
+
+      <div class="glosario-card" id="glosario2">
+        <p class="parrafo size1 blanco"> <span class=""> Gobierno de facto </span> | <p
+            class="parrafo blanco hidden size2" id="glosariotext2">Gobierno "de hecho", que no se ajusta a una norma
+            previa. Es una forma de referirse a las dictaduras.</p>
+        </p>
+      </div>
+
+      <div class="glosario-card" id="glosario3">
+        <p class="parrafo size1 blanco"> <span class=""> Democracia </span> | <p class="parrafo blanco hidden size2"
+            id="glosariotext3">Sistema político en el cual la soberanía reside en el pueblo, que la ejerce directamente
+            o por medio de sus representantes a través del voto. Forma de sociedad que reconoce y respeta como valores
+            esenciales la libertad y la igualdad de todos/as los y los ciudadanos ante la ley.</p>
+        </p>
+      </div>
+
+      <div class="glosario-card" id="glosario4">
+        <p class="parrafo size1 blanco"> <span class=""> Estado de derecho </span> | <p
+            class="parrafo blanco hidden size2" id="glosariotext4">Un principio de gobernanza en el que todas las
+            personas, instituciones y el propio Estado están sometidas a leyes. Se garantiza el respeto de los
+            principios de igualdad ante la ley, separación de poderes, participación en la adopción de decisiones,
+            legalidad, no arbitrariedad, y transparencia procesal y legal.</p>
+        </p>
+      </div>
+
+      <div class="glosario-card" id="glosario5">
+        <p class="parrafo size1 blanco"> <span class=""> Memoria colectiva </span> | <p
+            class="parrafo blanco hidden size2" id="glosariotext5">Reconstrucción histórica de hechos del pasado que
+            modificaron la vida de un grupo social o de todo un país. Se conforma a partir de la memoria individual y
+            forma parte de la identidad social. </p>
+        </p>
+      </div>
+
+      <div class="glosario-card" id="glosario6">
+        <p class="parrafo size1 blanco"> <span class=""> Identidad </span> | <p class="parrafo blanco hidden size2"
+            id="glosariotext6">Conjunto de rasgos propios que caracterizan a una persona y están en constante formación
+            y transformación. La "identidad social y colectiva" hace referencia a las principales cualidades en común y
+            la historia que une a los individuos que conforman esa sociedad.</p>
+        </p>
+      </div>
+
+      <div class="glosario-card" id="glosario7">
+        <p class="parrafo size1 blanco"> <span class=""> Actores sociales </span> | <p
+            class="parrafo blanco hidden size2" id="glosariotext7">Sujeto individual o colectivo que defiende los
+            intereses de los miembros de la sociedad mediante la participación activa en la vida pública.</p>
+        </p>
+      </div>
+
+      <div class="glosario-card" id="glosario8">
+        <p class="parrafo size1 blanco"> <span class=""> Organismos defensores de Derechos Humanos </span> | <p
+            class="parrafo blanco hidden size2" id="glosariotext8">Organizaciones no gubernamentales que trabajan en la
+            promoción y defensa de los derechos humanos y la visibilización y denuncia de situaciones que los violan.
+            Algunos de los principales organismos de Argentina son los mencionados en la sección de arriba.</p>
+        </p>
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+  <section class="quiz-pres">
+    <div class="quiz-titulo">
+      <p class="titulo color1">Desafío para seguir reflexionando</p>
+    </div>
+    <p class="parrafo">Elegí las opciones correctas para completar los conceptos.</p>
+    <img class="comprobado" src="images\comprobado.gif" alt="">
+
+
+    <div class="quiz-op col-10">
+      <!-- PREGUNTA 1 -->
+      <p class="subtit quizsub">Vivir en Democracia supone...</p>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">Reconocer la dignidad y los derechos de las personas.</p>
+        <button class="checkbox" id="check1">
+          <p class="tickbox" id="check1a"><span class="hidden tick" id="tick1">✔️</span></p>
+        </button>
+      </div>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">El respeto a las diferencias, la pluralidad y la diversidad.</p>
+        <button class="checkbox" id="check2">
+          <p class="tickbox" id="check2a"><span class="hidden tick" id="tick2">✔️</span></p>
+        </button>
+      </div>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">Que quienes nos gobiernan ejercen el poder <br>y se benefician del resultado de sus
+          decisiones.</p>
+        <button class="checkbox" id="check3">
+          <p class="tickbox" id="check3a"><span class="hidden tick" id="tick3">❌</span></p>
+        </button>
+      </div>
+
+      <!-- PREGUNTA 2 -->
+      <p class="subtit quizsub">La Memoria Colectiva...</p>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">Es compartida, construida y transmitida por un grupo o sociedad.</p>
+        <button class="checkbox" id="check4">
+          <p class="tickbox" id="check4a"><span class="hidden tick" id="tick4">✔️</span></p>
+        </button>
+      </div>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">Se constituye a partir del olvido del pasado con <br>la mirada puesta sólo en el futuro.
+        </p>
+        <button class="checkbox" id="check5">
+          <p class="tickbox" id="check5a"><span class="hidden tick" id="tick5">❌</span></p>
+        </button>
+      </div>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">Se construye a partir de sucesos compartidos por un grupo,<br> retroalimentando y
+          fortaleciendo su identidad. </p>
+        <button class="checkbox" id="check6">
+          <p class="tickbox" id="check6a"><span class="hidden tick" id="tick6">✔️</span></p>
+        </button>
+      </div>
+
+
+      <!-- PREGUNTA 3 -->
+      <p class="subtit quizsub">El Estado de derecho se caracteriza por...</p>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">El acceso al poder como consecuencia de un golpe de Estado o revolución.</p>
+        <button class="checkbox" id="check7">
+          <p class="tickbox" id="check7a"><span class="hidden tick" id="tick7">❌</span></p>
+        </button>
+      </div>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">Dar protección desde el Estado, dentro de un marco <br>jurídico, a todos sus habitantes.
+        </p>
+        <button class="checkbox" id="check8">
+          <p class="tickbox" id="check8a"><span class="hidden tick" id="tick8">✔️</span></p>
+        </button>
+      </div>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">Un Estado donde se respeta sin condiciones el <br>derecho vigente y la igualdad de todos
+          los ciudadanos/as ante la ley.</p>
+        <button class="checkbox" id="check9">
+          <p class="tickbox" id="check9a"><span class="hidden tick" id="tick9">✔️</span></p>
+        </button>
+      </div>
+
+      <!-- PREGUNTA 4 -->
+      <p class="subtit quizsub">La promoción y protección de los <br>Derechos Humanos está vinculada con...</p>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">La Democracia basada en el Estado de derecho.</p>
+        <button class="checkbox" id="check10">
+          <p class="tickbox" id="check10a"><span class="hidden tick" id="tick10">✔️</span></p>
+        </button>
+      </div>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">El impulso de la participación y la solidaridad en actividades <br>cotidianas y a través
+          de Organismos de Derechos Humanos. </p>
+        <button class="checkbox" id="check11">
+          <p class="tickbox" id="check11a"><span class="hidden tick" id="tick11">✔️</span></p>
+        </button>
+      </div>
+
+      <div class="fila ancho centrar">
+        <p class="parrafo-quiz">El respeto de las libertades y la erradicación de <br>cualquier tipo de discriminación.
+        </p>
+        <button class="checkbox" id="check12">
+          <p class="tickbox" id="check12a"><span class="hidden tick" id="tick12">✔️</span></p>
+        </button>
+      </div>
+
+
+
+
+
+    </div>
+    <!-- RESPUESTAS -->
+
+
+
+  </section>
+  <section class="seccion-color-fit ">
+    <p class="subtit blanco">"Únicamente la democracia es capaz de preservar a un pueblo de semejante horror, que sólo ella puede mantener y salvar los sagrados y esenciales derechos de la criatura humana. Únicamente así podremos estar seguros de que <b>Nunca Más</b> en nuestra patria se repetirán los hechos que nos han hecho trágicamente famosos en el mundo civilizado".</p>
+    <p class="parrafo color4">Del prólogo de "Nunca Más", informe de la Comisión Nacional sobre la Desaparición de Personas.</p>
+  </section>
+
+
+  <footer class="footer-2">
+    <img class="logo-footer" src="images/logo-edym-blanco.png" alt="Logo Educación y Memoria">
+    <p class="detalle-text2"> Programa Educación y Memoria | Gerencia Operativa de Equipos de Apoyo 
+       <br> Ministerio de Educación de la Ciudad de Buenos Aires | Diciembre 2021  </p>
+<a class="detalle-text2 link-rosa" href="https://www.buenosaires.gob.ar/educacion/programasymemoria" target="_blank">Visitá el sitio del programa</a>
+     
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="animaciones.js"></script>
+  <script src="main.js"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 150, // offset (in px) from the original trigger point
+      delay: 10, // values from 0 to 3000, with step 50ms
+      duration: 700, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+  </script>
+
+</body>
+
+</html>
