@@ -1729,6 +1729,10 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     align-items: center;
     flex-wrap: wrap;
   }
+
+  .footer {
+    padding: 0% 5%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
