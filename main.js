@@ -724,6 +724,7 @@ function glosario(palabra, texto) {
 
     palabra.addEventListener('click', function () {
     texto.classList.toggle('hidden')
+    palabra.classList.toggle('glosarioadd')
 
 })
 }

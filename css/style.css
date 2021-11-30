@@ -259,6 +259,15 @@ nav {
   color: #a390bd;
 }
 
+.seccion-blanca-ll {
+  text-align: center;
+  justify-content: center;
+  height: 1000px;
+  padding: 100px 5%;
+  background-color: white;
+  color: #a390bd;
+}
+
 .seccion-blanca-organismos {
   text-align: center;
   justify-content: center;
@@ -334,8 +343,17 @@ nav {
   transition: 1s all;
 }
 
+.seccionelec2 {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 .candidatos-container {
   text-align: center;
+}
+
+.datos {
+  margin-left: 2rem;
 }
 
 .ucrcontainer {
@@ -1184,6 +1202,7 @@ nav {
 
 .pie-conteiner {
   text-align: center;
+  width: 100%;
 }
 
 .fontplus {
@@ -1344,7 +1363,7 @@ nav {
   flex-wrap: wrap;
 }
 
-.seccion-blanca, .seccion-blanca-organismos, .seccion-blanca-madres, .seccion-blanca-luchadoras, .seccion-foto-1, .seccion-foto-madres, .seccion-foto-urna, .candidatos-container, .botones-container, .masboton, .quiz-respuestas-cont, .rondacont, .fila, .panuelocont, .madres-test-cont, .pie-conteiner, .boton-atras-cont, .glosario-cont {
+.seccion-blanca, .seccion-blanca-ll, .seccion-blanca-organismos, .seccion-blanca-madres, .seccion-blanca-luchadoras, .seccion-foto-1, .seccion-foto-madres, .seccion-foto-urna, .candidatos-container, .botones-container, .masboton, .quiz-respuestas-cont, .rondacont, .fila, .panuelocont, .madres-test-cont, .pie-conteiner, .boton-atras-cont, .glosario-cont {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1426,6 +1445,27 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     padding: 0 3%;
   }
 
+  .seccion-blanca-luchadoras {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+    padding: 100px 5%;
+  }
+
+  .seccion-blanca-ll {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: fit-content;
+    padding: 50px 3%;
+  }
+
   .seccion-foto-1 {
     text-align: center;
     height: 550px;
@@ -1435,7 +1475,7 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
 
   .recuadro {
     width: 90%;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     padding: 5%;
     color: white;
     background-color: #74668a;
@@ -1446,11 +1486,11 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
   }
 
   .pie {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-image: conic-gradient(#db7b7b 51.75%, #8abbcf 51.75% 91.91%, #649173 91.91% 94.24%, #292929 94.24% 95.43%, #a390bd 95.43% 96.15%, #b6b6b6 96.15% 100%);
     border-radius: 50%;
-    margin: 2rem;
+    margin: 1rem;
   }
 
   .datos {
@@ -1458,6 +1498,16 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    text-align: center;
+    width: 90%;
+    margin-left: 0rem;
+  }
+
+  .kkkk {
+    font-size: 1rem;
+  }
+
+  .yyy {
     text-align: center;
   }
 
@@ -1468,14 +1518,30 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    height: 900px;
+    height: 1200px;
     padding: 0% 5%;
+  }
+
+  .extraheight {
+    height: 1750px;
+  }
+
+  .revextraheight {
+    height: 1200px;
+  }
+
+  .botonmadabue {
+    margin: 0.5rem 2rem;
   }
 
   .panuelomadres {
     margin: 1rem 1rem;
-    width: 5rem;
+    width: 4rem;
     cursor: pointer;
+  }
+
+  .madretestpar {
+    font-size: 1rem;
   }
 
   .extraheight {
@@ -1493,7 +1559,7 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    height: 1150px;
+    height: fit-content;
     padding: 50px 5%;
     background-color: white;
     color: #a390bd;
@@ -1505,12 +1571,13 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
   }
 
   .seccion-color-elec {
-    height: 1250px;
+    height: fit-content;
     padding: 50px 5%;
   }
 
   .ucr {
     font-family: "Raleway", sans-serif;
+    width: 80%;
     font-weight: 600;
     font-size: 1.2rem;
     padding: 0.2rem 0.5rem;
@@ -1521,6 +1588,7 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     font-weight: 600;
     font-size: 1.2rem;
     padding: 0.2rem 0.5rem;
+    width: 80%;
   }
 
   .pi {
@@ -1528,6 +1596,7 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     font-weight: 600;
     font-size: 1.2rem;
     padding: 0.2rem 0.5rem;
+    width: 80%;
   }
 
   .mid {
@@ -1535,6 +1604,7 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     font-weight: 600;
     font-size: 1.2rem;
     padding: 0.2rem 0.5rem;
+    width: 80%;
   }
 
   .af {
@@ -1542,6 +1612,7 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     font-weight: 600;
     font-size: 1.2rem;
     padding: 0.2rem 0.5rem;
+    width: 80%;
   }
 
   .otros {
@@ -1549,6 +1620,7 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     font-weight: 600;
     font-size: 1.2rem;
     padding: 0.2rem 0.5rem;
+    width: 80%;
   }
 
   .seccion-foto-urna {
@@ -1556,7 +1628,7 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 450px;
+    height: 470px;
     background-position: left;
     background-size: cover;
   }
@@ -1597,16 +1669,17 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding: 0px 0px;
   }
 
   .rondagif {
-    width: 30rem;
+    width: 15rem;
     filter: drop-shadow(1px 1px 250px #74668a);
   }
 
   .seccion-nietos {
     padding: 100px 5% 0 5%;
-    height: 1200px;
+    height: fit-content;
   }
 
   .tt {
@@ -1614,9 +1687,18 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
     padding: 100px 5%;
   }
 
+  .rondarecuadro {
+    width: 80%;
+  }
+
+  .seccion-foto-madres {
+    height: fit-content;
+    padding: 100px 0;
+  }
+
   .glosario-cont {
     margin-top: 2rem;
-    padding: 5% 10%;
+    padding: 0;
   }
 
   .parrafo-quiz {
@@ -1625,6 +1707,27 @@ header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-ga
 
   .detalle-text2 {
     font-size: 0.8rem;
+  }
+
+  .size1 {
+    font-size: 1.1rem;
+  }
+
+  .glosario-card {
+    width: 42%;
+    text-align: center;
+    margin: 0.2rem 0.5rem;
+  }
+
+  .glosarioadd {
+    width: 90%;
+  }
+
+  .fila {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
 
