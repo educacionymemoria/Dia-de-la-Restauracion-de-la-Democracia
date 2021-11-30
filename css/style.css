@@ -182,6 +182,26 @@ nav {
   overflow-y: hidden;
 }
 
+.seccion-color-elec {
+  text-align: center;
+  height: 1000px;
+  padding: 200px 5%;
+  background-color: #74668a;
+  color: white;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.seccion-color-1 {
+  text-align: center;
+  height: 1000px;
+  padding: 200px 5%;
+  background-color: #74668a;
+  color: white;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 .seccion-color-galeria {
   text-align: center;
   height: fit-content;
@@ -231,6 +251,24 @@ nav {
 }
 
 .seccion-blanca {
+  text-align: center;
+  justify-content: center;
+  height: 1000px;
+  padding: 100px 5%;
+  background-color: white;
+  color: #a390bd;
+}
+
+.seccion-blanca-organismos {
+  text-align: center;
+  justify-content: center;
+  height: 1000px;
+  padding: 100px 5%;
+  background-color: white;
+  color: #a390bd;
+}
+
+.seccion-blanca-madres {
   text-align: center;
   justify-content: center;
   height: 1000px;
@@ -1306,14 +1344,14 @@ nav {
   flex-wrap: wrap;
 }
 
-.seccion-blanca, .seccion-blanca-luchadoras, .seccion-foto-1, .seccion-foto-madres, .seccion-foto-urna, .candidatos-container, .botones-container, .masboton, .quiz-respuestas-cont, .rondacont, .fila, .panuelocont, .madres-test-cont, .pie-conteiner, .boton-atras-cont, .glosario-cont {
+.seccion-blanca, .seccion-blanca-organismos, .seccion-blanca-madres, .seccion-blanca-luchadoras, .seccion-foto-1, .seccion-foto-madres, .seccion-foto-urna, .candidatos-container, .botones-container, .masboton, .quiz-respuestas-cont, .rondacont, .fila, .panuelocont, .madres-test-cont, .pie-conteiner, .boton-atras-cont, .glosario-cont {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
 }
 
-header, .seccion-color, .seccion-color-galeria, .seccion-color-fit, .seccion-nietos, .seccion-glosario, .seccion-negra, .seccion-negra-ministerio, .quiz-pres, .columna, .glosario-card {
+header, .seccion-color, .seccion-color-elec, .seccion-color-1, .seccion-color-galeria, .seccion-color-fit, .seccion-nietos, .seccion-glosario, .seccion-negra, .seccion-negra-ministerio, .quiz-pres, .columna, .glosario-card {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1354,8 +1392,239 @@ header, .seccion-color, .seccion-color-galeria, .seccion-color-fit, .seccion-nie
     padding: 0rem 1rem;
   }
 
-  .parrafos {
-    padding: 0 5%;
+  .parrafo {
+    padding: 5%;
+  }
+
+  .titulo-portada {
+    font-size: 3rem;
+    margin-top: 7rem;
+    padding: 0 0.5rem;
+    font-weight: 900;
+  }
+
+  .titulo {
+    font-size: 2rem;
+    padding: 0;
+  }
+
+  header {
+    height: 750px;
+  }
+
+  .calendario {
+    width: 5rem;
+  }
+
+  .seccion-blanca {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 1000px;
+    padding: 0 3%;
+  }
+
+  .seccion-foto-1 {
+    text-align: center;
+    height: 550px;
+    background-position: left;
+    background-size: cover;
+  }
+
+  .recuadro {
+    width: 90%;
+    font-size: 1.1rem;
+    padding: 5%;
+    color: white;
+    background-color: #74668a;
+  }
+
+  .urna {
+    width: 4rem;
+  }
+
+  .pie {
+    width: 300px;
+    height: 300px;
+    background-image: conic-gradient(#db7b7b 51.75%, #8abbcf 51.75% 91.91%, #649173 91.91% 94.24%, #292929 94.24% 95.43%, #a390bd 95.43% 96.15%, #b6b6b6 96.15% 100%);
+    border-radius: 50%;
+    margin: 2rem;
+  }
+
+  .datos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+
+  .seccion-blanca-madres {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    height: 900px;
+    padding: 0% 5%;
+  }
+
+  .panuelomadres {
+    margin: 1rem 1rem;
+    width: 5rem;
+    cursor: pointer;
+  }
+
+  .extraheight {
+    height: 1450px;
+  }
+
+  .revextraheight {
+    height: 900px;
+  }
+
+  .seccion-blanca-organismos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    height: 1150px;
+    padding: 50px 5%;
+    background-color: white;
+    color: #a390bd;
+  }
+
+  .imgorganismosddhh {
+    width: 10rem;
+    margin: 0.5rem;
+  }
+
+  .seccion-color-elec {
+    height: 1250px;
+    padding: 50px 5%;
+  }
+
+  .ucr {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .pj {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .pi {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .mid {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .af {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .otros {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .seccion-foto-urna {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 450px;
+    background-position: left;
+    background-size: cover;
+  }
+
+  .titulo2 {
+    font-size: 2rem;
+    filter: drop-shadow(3px 3px #74668a);
+  }
+
+  .recmob {
+    position: relative;
+    right: 3rem;
+  }
+
+  .bigger {
+    font-size: 1.1rem;
+  }
+
+  .carousel {
+    width: 90%;
+  }
+
+  .carousel-caption {
+    font-size: 1rem;
+    text-shadow: 5px 5px 5px black;
+  }
+
+  .lower {
+    font-size: 1.7rem;
+  }
+
+  .subtit {
+    font-size: 1.5rem;
+  }
+
+  .rondacont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .rondagif {
+    width: 30rem;
+    filter: drop-shadow(1px 1px 250px #74668a);
+  }
+
+  .seccion-nietos {
+    padding: 100px 5% 0 5%;
+    height: 1200px;
+  }
+
+  .tt {
+    height: fit-content;
+    padding: 100px 5%;
+  }
+
+  .glosario-cont {
+    margin-top: 2rem;
+    padding: 5% 10%;
+  }
+
+  .parrafo-quiz {
+    font-size: 1.3rem;
+  }
+
+  .detalle-text2 {
+    font-size: 0.8rem;
   }
 }
 
